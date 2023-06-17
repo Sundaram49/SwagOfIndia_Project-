@@ -1,0 +1,227 @@
+*{
+    display: boder-box;
+    margin: 0px;
+}
+/* body{
+ background-color: #18ab29;
+ border: 2px solid black;
+} */
+body a{
+    text-decoration: none;
+ 
+}
+
+header .navbar{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 12% ;
+    background: red;
+}
+.icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.input input{
+    border: none;
+    padding: 3px 5px;
+    width: 200px;
+    border-radius: 25px;
+}
+.input img{
+    margin: 10px;
+  }
+ header .text a{
+    font-size: small;
+    float: left;
+    color: gainsboro;
+    margin-left: 10px;
+}
+select{
+    background: none;
+    border: none;
+}
+.header-bottom{
+    background: white;
+    padding: 3px 50px;
+    justify-content: space-around;
+}
+
+.header-bottom img{
+
+    height: 50px;width: 100px;
+   
+    
+}
+
+ .header-bottom ul li
+{
+
+   margin-left: 25px;
+  list-style: none;
+  float: left;
+}
+
+    .myButton {
+        background-color:#44c767;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:5px 15px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+    }
+    .myButton:hover {
+        background-color:#5cbf2a;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+    .second-bottom{
+      display: flex;
+      padding: 10px 100px 10px 10%;
+       background: rgb(161, 152, 152);
+    }
+    .second-bottom a:last-child{
+        font-weight: bold; 
+    }
+    main .col-3 div{
+        margin-bottom: 50px;
+    }
+    
+    main  div,a, h3{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size:0.9rem;
+        color: #000;
+        
+    }
+    
+    .main-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+    .main-top div{
+         display: flex;
+         align-items: center;
+        flex-direction: row;
+        padding:0px;
+        margin:auto;
+    }
+    p{
+        margin-right: 20px;
+    }
+    .font  {
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+    }
+    .row{
+        flex-direction: row;
+        padding-bottom: 0%;
+        margin: 0px;
+    }
+  .footer .row:first-child .col-2{
+    text-align: center;
+    font-size: small;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    height: 200px;
+    border: 1px solid rgba(59, 21, 21, 0.127);
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
+  .footer  img{
+  height: 70px;width: 70px;  
+}
+.footer .row:last-child .col-2{
+    height:200px ;
+     font-size: larger;
+     font-weight: bolder;
+    padding: 10px 10px auto 20px ;
+    margin-bottom: 50px;
+
+}
+.footer .row:last-child p{
+    font-size: small;
+    font-weight: lighter;
+
+}
+.last-img img{
+    height: 25px;width: 25px;
+   float: left;
+   margin-left: 20px;
+   margin-bottom: 50px;
+}
+.my-acount a ,p{
+    color: #18ab29;
+
+}
+.my-acount p:hover{
+    background:rgb(71, 81, 71);
+    color: white;
+   width: 150px;
+    border-radius: 5px;
+    
+}
+
+/* track order css */
+
+.items{
+   justify-content: flex-start;
+}
+.p
+body .product-details
+   {
+    color: red;
+    font-size: 20px;
+}
+.product-details 
+h2{ justify-content: flex-start;
+    flex: none;
+    
+    margin-top: -100px;
+}
+.product-details h4{
+    color: grey.product-details ;
+}
+.t-order{
+    color: red;
+    
+}
+
+/* my profile css */
+.my-profile{
+    justify-content: flex-start;
+}
+.my-profile h6 {
+     color: green;
+     font-size: 2em;
+     line-height: 2em;
+
+     justify-content: flex-start;
+}
+.btn-2{
+    width: 150px;
+    border: none;
+    background: green;   
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+    
+
+
